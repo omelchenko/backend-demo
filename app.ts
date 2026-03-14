@@ -1,5 +1,5 @@
-import { createPublisher, getPublisher, listPublishers } from './publishers';
-import { createBook, getBook, listBooks } from './books';
+import { createPublisher, getPublisher, listPublishers } from './modules/publishers';
+import { createBook, getBook, listBooks } from './modules/books';
 
 
 class DemoApp {
